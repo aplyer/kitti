@@ -169,9 +169,9 @@ if __name__ == '__main__':
 #  br = tf.TransformBroadcaster()
   rate = rospy.Rate(0.05)
 #  data = Kitti()
-#  data = Kitti('2011_09_29_drive_0071')
+  data = Kitti('2011_09_29_drive_0071')
 #  data = Kitti('2011_09_30_drive_0028')
-  data = Kitti('2011_10_03_drive_0034')
+#  data = Kitti('2011_10_03_drive_0034')
   data.has_color = False
   data.has_lidar = True
 #  data = Kitti('2011_09_26_drive_0011')
